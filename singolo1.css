@@ -1,0 +1,230 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPGQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPGQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh50XSwiPGQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  max-width: 1020px;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+header {
+  background: url(assets/1.png) no-repeat center top / cover;
+  height: 96px; 
+  font-style: bold;
+  }
+
+.logo {
+padding-top: 30px;
+font-size: 23px;
+color: #ffffff;
+padding-left: 1px;
+letter-spacing: 0.02em;
+}
+
+.logo1 {
+font-size: 25px;  
+color: #f06c64;
+margin-left: -.2em;
+}
+
+.right{
+width: 480px;
+height: 96px; 
+float: right;
+padding-top: 38px;
+text-align: right;
+}
+
+.left{
+  width: 120px;
+  height: 96px;
+  float: left;
+}
+
+h1 {
+padding-top: 0px;
+display: inline-block;
+}
+
+.container {
+  width: 940px;
+  height: 96px; 
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+.home {
+  color: #f06c64;
+  font-size: 12px;
+  margin-right:27px;
+}
+
+.pagelink {
+  margin-right:26px;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.pagelink1 {
+  margin-right:0px;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+section {
+  background: url(assets/Bg.png) no-repeat center top / cover;
+  height: 600px;
+  }
+
+.chevleft {
+position: absolute;
+  padding-top: 280px;
+ padding-left: 0px;
+}
+
+.apple1 {
+position: absolute;
+  padding-top: 52px;
+ padding-left: 71px;  
+} 
+
+.apple2{
+position: absolute;
+  padding-top: 174px;
+ padding-left: 383px;  
+}
+
+.chevright{
+position: absolute;
+padding-left: 920px;
+padding-top: 280px;  
+}
+
+footer {
+  background: url(assets/Bg3.png) no-repeat center top / cover;
+  height: 500px;
+  color: #666d89;
+  }
+
+  h2 {
+  font-size: 30px;
+  font-weight: : 900;
+}
+
+p {
+  font-size: 17px;
+  font-style: normal;
+  padding-top: 1px;
+  line-height: 1.75;
+  letter-spacing: 0.012em;
+  text-align: justify;
+  color: #878da9;
+}
+
+.grid {
+  box-sizing: border-box;
+  border: 0.1px blue solid;
+  width: 940px;
+  height: 210px;
+  display: grid;
+  grid-template-columns: 78px 222px 100px 220px 100px 220px;
+  grid-template-rows: 124px 86px;
+  margin-top: 5px;
+  float: left;
+}
+
+.box1 {
+  margin-left: 0px;
+  margin-top: 3px;
+}
+
+.box3 {
+  margin-left: 19px;
+  margin-top: 3px;
+}
+
+.box5 {
+  margin-left: 19px;
+  margin-top: 3px;
+}
+
+.box7 {
+  margin-left: 0px;
+  margin-top: 3px;
+}
+
+.box9 {
+  margin-left: 19px;
+  margin-top: 3px;
+}
+
+.box11 {
+  margin-left: 19px;
+  margin-top: 3px;
+}
+
+h3 {
+  font-family: lato Black,sans-serif;
+  font-size: 17px;
+  float: left;
+  text-align: left;
+}
+
+h4 {
+  font-family: lato Regular, sans-serif;
+  font-size: 12px;
+  font-weight: 300;
+  font-style: normal;
+  padding-top: 9px;
+  line-height: 1.75;
+  letter-spacing: 0.00000000000001em;
+  text-align: justify;
+  color: #878da9;
+  float: left;
+  width: 220px;
+  height: 56px;
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
