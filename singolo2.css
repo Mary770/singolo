@@ -1,0 +1,109 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Lato Bold'), local('Lato-Bold'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh6UVSwiPGQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  src: local('Lato Light'), local('Lato-Light'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh7USSwiPGQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Lato Regular'), local('Lato-Regular'), url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXg.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+/* latin */
+@font-face {
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 900;
+  src: local('Lato Black'), local('Lato-Black'), url(https://fonts.gstatic.com/s/lato/v16/S6u9w4BMUTPHh50XSwiPGQ.woff2) format('woff2');
+  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+  max-width: 1020px;
+  padding: 0;
+  margin: 0;
+}
+
+div {
+  box-sizing: border-box;
+}
+
+header {
+  background: url(assets/Bg1.png) no-repeat center top / cover;
+  height: 870px; 
+  }
+
+.container {
+  width: 940px;
+  height: 1600px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}  
+
+h1 {
+  padding-top: 60px;
+  float: left;
+  font-family: "Lato-Black" serif;
+  font-size: 29px;
+  font: bold;
+  letter-spacing: 0.6px;
+  color: #666d89;
+}
+
+.shadow {
+  text-shadow: 0px 0.5px 0.5px #666d89;
+}
+
+h2 {
+  position: absolute;
+  float: left;
+  margin-top: 118px;
+  font-family: "Lato-Light" serif;
+  font-weight: 300;
+  font-size: 18px;
+  color: #636983;
+}
+
+a {
+  position: relative;
+  float: left;
+  margin-top: 155px;
+  right: 121px;
+  margin-right: 10px;
+}
+
+.grid {
+  box-sizing: border-box;
+  border: 0.1px #2d303a solid;
+  width: 940px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 240px 240px 240px 200px;
+  grid-template-rows: 207px 207px 207px 207px;
+  margin-top: 16px;
+  float: left;
+  max-height: 621px; 
+  overflow: hidden;
+}
+
